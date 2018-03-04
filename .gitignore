@@ -1,2 +1,6 @@
+.bundle
 theme-sources
+.cache
 .DS_Store
+.sass-cache
+build/
