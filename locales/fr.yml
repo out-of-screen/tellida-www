@@ -1,0 +1,72 @@
+en:
+  home:
+    title: Tellida - Abonnements Pour Shopify
+    tagline: Vendez des abonnements  simplement
+    subtitle: "Des paiements récurrents sur votre site Shopify <em>en quelques minutes</em>"
+    navbar:
+      features: Fonctionnalités
+      pricing: Prix
+      docs: Documentation
+      blog: Blog
+    install_cta: "Installer l'appli Shopify"
+    intro:
+      title: "Acceptez des paiements récurrents pour des abonnements, des boxes, des adhésions ..."
+      description: "Tellida est la solution la plus simple pour vendre des abonnements et elle est complètement intégrée à Shopify"
+    features:
+      simple:
+        title: "Simple"
+        subtitle: "Configuration très simple"
+        description: "Tellida est la solution la plus simple à mettre en place ! Vous serez prêts à vendre en quelques minutes"
+      integrated:
+        title: "Invisible"
+        subtitle: "Complètement intégrée"
+        description: "Pour vos clients, l'expérience de paiement sera strictement inchangée. Tellida ne redirigera <em>jamais</em> vos utilisateurs en dehors de votre site !"
+      cheap:
+        title: "Économique"
+        subtitle: "Dépensez moins"
+        description: "Puisque c'est la solution la plus simple et légère, Tellida est aussi la moins chère du marché !"
+    pricing:
+      title: "Prix"
+      currency: "€"
+      monthly: "/month"
+      get_started: "Installer"
+      first:
+        title: "Starter"
+        subtitle: "Pour lancer un nouveau concept"
+        flat_fee: "0"
+        items:
+          - "4% par transaction"
+          - "Toutes les fonctionnalités"
+          - "Pas de frais fixes"
+      intermediate:
+        title: "Professionel"
+        subtitle: "Le plus avantageux"
+        flat_fee: "15"
+        items:
+          - "<b>1% par transaction</b>"
+          - "Toutes les fonctionnalités"
+          - "Support dédié"
+      enterprise:
+        title: "Entreprise"
+        subtitle: "Pour des volumes importants"
+        flat_fee: "100"
+        items:
+          - "<b>0% per transaction</b>"
+          - "Dedicated support"
+          - "Customizations"
+    testimonials:
+      title: "Témoignages"
+      anna: "Nous avons migré avec succès depuis ReCharge vers Tellida pour bénéficier de l'expérience native et économiser. C'est beaucoup plus simple et efficace !"
+    details:
+      title: "Comment ça marche ?"
+      left: |
+        Tellida est une application Shopify que vous pouvez installer sur votre boutique en un clic. Pour la configurer, il vous faudra simplement connecter votre compte Stripe et lier vos produits Shopify aux Plans Stripe. Ces plans supportent des fonctionnalités avancées, comme les coupons ou des fréquences d'abonnements plus complexes.
+      right: |
+        Quand un client achète un produit récurrent sur votre boutique, il sera amené vers les étapes de paiement identiques au étapes natives de Shopify. La seule différence est qu'ensuite ses informations de paiement seront stockées de manière sécurisée par Stripe, et qu'il sera souscrit au Plan Stripe correspondant. Sa carte sera donc prélevée régulièrement par Stripe directement.
+    contact:
+      title: "Des questions ? N'hésitez pas à nous écrire !"
+      company: "Société / Site"
+      email: Adresse mail
+      message: Message
+      send: Envoyer
+

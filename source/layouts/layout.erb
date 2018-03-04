@@ -6,11 +6,18 @@
     <meta name="viewport"
           content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Use the title from a page's frontmatter if it has one -->
-    <title><%= current_page.data.title || "Middleman" %></title>
+    <title><%= I18n.t("home.title") %></title>
+     <link rel="shortcut icon" href="img/logo_black.png">
+    <%= stylesheet_link_tag "landio" %>
     <%= stylesheet_link_tag "site" %>
-    <%= javascript_include_tag "site" %>
+    <link rel="stylesheet" href="stylesheets/.css">
   </head>
+
   <body>
     <%= yield %>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+    <%= javascript_include_tag "landio.min" %>
   </body>
+
 </html>
+
