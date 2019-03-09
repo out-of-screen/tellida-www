@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>Tellida - Subscriptions for Shopify</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <meta name="description" content="Start selling subscriptions on Shopify in 5 minutes">
+    <meta property="og:image" content="">
+    <link rel="shortcut icon" href="https://www.launchaco.com/static/favicon.ico">
+
+
+    <link rel="stylesheet" href="Tellida%20-%20Subscriptions%20for%20Shopify_fichiers/AllTemplates.css">
+
+    <style>
+      .launchaco-promo {
+        position: fixed;
+        bottom: 20px;
+        left: 20px;
+        cursor: pointer;
+        width: 0;
+        height: 0;
+        z-index: 999999;
+      }
+
+      .launchaco-promo__active {
+        width: initial;
+        height: initial;
+      }
+
+      .launchaco-promo-speechbubble {
+        font-family: -apple-system, BlinkMacSystemFont, Roboto, "Open Sans", "Helvetica Neue", sans-serif;
+        position: absolute;
+        left: 50px;
+        top: -11px;
+        padding: 9px;
+        color: white;
+        border-radius: 3px;
+        background: linear-gradient(#227ef7, #1290fc);
+        font-size: 14px;
+        font-weight: 600;
+        width: 93px;
+        box-sizing: border-box;
+        opacity: 0;
+        pointer-events: none;
+        transition: opacity .15s ease-in-out;
+      }
+
+      .launchaco-promo__active:hover .launchaco-promo-speechbubble {
+        opacity: 1;
+      }
+
+      .launchaco-promo svg {
+        transition: all .3s ease-in-out;
+        opacity: 0;
+      }
+
+      .launchaco-promo__active svg {
+        opacity: 1;
+      }
+
+      .launchaco-promo-speechbubble:before {
+        content: "";
+        width: 10px;
+        height: 10px;
+        transform: rotate(45deg);
+        left: -4px;
+        bottom: 10px;
+        border-radius: 3px;
+        background: #1290fc;
+        z-index: 2;
+        position: absolute
+      }
+
+      .launchaco-promo__active .launchaco-promo-speechbubble__animate {
+        animation: popinpopup 3s linear forwards 0.1s;
+      }
+
+      @keyframes popinpopup {
+        0% {
+          opacity: 0;
+          transform: translate3d(0, 3px, 0)
+        }
+
+        7%,
+        93% {
+          opacity: 1;
+          transform: translate3d(0, 0, 0)
+        }
+
+        100% {
+          opacity: 0;
+          transform: translate3d(0, -4px, 0)
+        }
+      }
+
+      .launchaco-promo-animate:hover {
+        opacity: 1 !important;
+      }
+    </style>
+
+
+    <style>
+
+    </style>
+  </head>
+
+  <body class="font-neutral">
+    <div class="purple-flat">
+      <!---->
+      <header class="header">
+        <div class="container-lrg">
+          <div class="flex col-12 spread"><a href="https://tellidasubscriptions.launchaco.com/" class="logo launchaco-builder-hoverable logo"><img src="Tellida%20-%20Subscriptions%20for%20Shopify_fichiers/5581471f-dd44-4c82-91bc-4bc048fd661c.png" alt="tellidaCompany Logo"></a> <a href="#main-menu" id="menu" class="menu-toggle"><b class="nav-link mr0 secondary-color">☰</b></a>
+            <nav id="main-menu" role="navigation" class="main-menu"><a href="#" id="main-menu-close" class="menu-close"><span class="bold">✕</span></a> <a href="https://tellidasubscriptions.launchaco.com/#pricing-3" class="nav-link secondary-color">Pricing</a><a href="https://tellidasubscriptions.launchaco.com/#feature-4" class="nav-link secondary-color">Features</a><a href="https://docs.tellidasubscriptions.com/" class="nav-link secondary-color">Docs</a><a href="https://blog.tellidasubscriptions.com/" class="nav-link secondary-color">Blog</a> <a href="mailto:contact@outosfcreen.com" class="nav-link secondary-color">Contact</a></nav>
+          </div>
+        </div>
+      </header>
+      <section class="section">
+        <div class="container mb40">
+          <div class="col-12 text-center">
+            <h1 class="heading-lrg primary-color launchaco-builder-hoverable">Start selling subscriptions on Shopify in 5 minutes</h1>
+            <h2 class="subheading secondary-color mt20 launchaco-builder-hoverable">The only recurring subscription app 100% designed for Shopify</h2>
+            <div class="mt40"><a href="https://app.tellidasubscriptions.com/" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable mobile-text-center accent-bg primary-color"> <span> Install Tellida on your shop </span></a></div>
+          </div>
+        </div>
+        <div class="container-lrg">
+          <div class="col-12">
+            <div class="computerphone launchaco-builder-hoverable">
+              <div class="computerphone-computer">
+                <div class="mask"><img src="Tellida%20-%20Subscriptions%20for%20Shopify_fichiers/4784db20-7191-46d7-90f0-71c9beaba7d0.png" alt="Screenshot of App inside a laptop" class="mask-img"></div>
+                <div class="computerphone-computer-bottom"></div>
+              </div>
+              <div class="computerphone-iphone">
+                <div class="mask"><img src="Tellida%20-%20Subscriptions%20for%20Shopify_fichiers/cd4c69ba-db35-4299-a518-6f0d1779a187.png" alt="Screenshot of iPhone App" class="mask-img"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <section id="feature-1" class="section purple-white" sitemeta="[object Object]" activepage="Landing">
+      <div class="container-lrg flex">
+        <div class="col-4 text-center flex flex-column center-horizontal"><i class="icon mobile-center-icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+              <path d="M20 12.5A7.5 7.5 0 1 1 12.5 5a7.5 7.5 0 0 1 7.5 7.5zM12.5 3a.5.5 0 0 0 .5-.5v-2a.5.5 0 0 0-1 0v2a.5.5 0 0 0 .5.5zm0 19a.5.5 0 0 0-.5.5v2a.5.5 0 0 0 1 0v-2a.5.5 0 0 0-.5-.5zm-10-10h-2a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm22 0h-2a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zM5.075 5.782a.5.5 0 1 0 .708-.707L4.368 3.661a.5.5 0 0 0-.707.707zm14.85 13.436a.5.5 0 0 0-.707.707l1.414 1.414a.5.5 0 0 0 .707-.707zm-14.85 0l-1.414 1.414a.5.5 0 0 0 .707.707l1.414-1.414a.5.5 0 1 0-.707-.707zM20.632 3.66l-1.415 1.414a.5.5 0 0 0 .708.707l1.414-1.414a.5.5 0 0 0-.707-.707z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Simple</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Connect your Stripe account, decfine which products should be sold as recurring subscriptions and you're all set</p>
+        </div>
+        <div class="col-4 text-center flex flex-column center-horizontal"><i class="icon mobile-center-icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+              <path d="M20 22.494v1a.5.5 0 0 1-1 0v-1a.5.5 0 1 1 1 0zm-14.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 1 0v-1a.5.5 0 0 0-.5-.5zm7 1a10.924 10.924 0 0 1-2.494-.391l-.27 1.76a.528.528 0 0 0 .097.454.498.498 0 0 0 .387.183h4.56a.5.5 0 0 0 .49-.598l-.275-1.8a10.928 10.928 0 0 1-2.495.392zm9.06-7.44L18 11.995v9h2.5a1.5 1.5 0 0 0 1.5-1.5v-2.879a1.5 1.5 0 0 0-.44-1.06zM17 5.995v15a18.472 18.472 0 0 1-4 .974v-7.474a.5.5 0 0 0-1 0v7.474a18.47 18.47 0 0 1-4-.974v-15C8 3.67 11.553.244 12.5 0c.947.244 4.5 3.67 4.5 5.994zm-2.168 1.127A4.374 4.374 0 0 0 12.5 5.994a4.113 4.113 0 0 0-2.343 1.136.5.5 0 0 0 .686.729 3.213 3.213 0 0 1 1.657-.865 3.417 3.417 0 0 1 1.668.874.5.5 0 0 0 .664-.748zM3 16.614v2.88a1.5 1.5 0 0 0 1.5 1.5H7v-9l-3.56 3.56a1.5 1.5 0 0 0-.44 1.06z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Fully integrated</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Your
+ customers will experience a native checkout experience and customer 
+dashboard. Tellida will never redirect users outside of your shop.</p>
+        </div>
+        <div class="col-4 text-center flex flex-column center-horizontal"><i class="icon mobile-center-icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" viewBox="0 0 24 23" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.836 9.111l-5.83 5.216 1.552 8.077a.5.5 0 0 1-.72.539l-6.864-3.544-6.865 3.541a.5.5 0 0 1-.72-.541l1.597-8.067-5.822-5.22a.5.5 0 0 1 .256-.864L8.095 7.01 11.556.271a.5.5 0 0 1 .89 0l3.461 6.738 7.673 1.239a.5.5 0 0 1 .256.863z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Economic</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Tellida is less expensive than competitors because it relies on Stripe subscriptions to do most of the hard-lifting</p>
+        </div>
+      </div>
+      <!---->
+    </section>
+    <section id="cta-2" class="section purple-white background background-white" sitemeta="[object Object]" activepage="Landing">
+      <div class="bg">
+        <div class="bg-image" style="background-image: url(&quot;https://cdn.launchaco.com/images/518f90ec-4c1a-4d46-b390-49a272f645f6.png&quot;);"></div>
+        <!---->
+      </div>
+      <div class="container text-center">
+        <div class="col-12">
+          <h4 class="heading primary-color launchaco-builder-hoverable"> Accept recurring payments for plans or memberships </h4>
+          <p class="paragraph mt20 secondary-color launchaco-builder-hoverable">Tellida is the simplest subscriptions app available and is fully integrated with the native Shopify experience </p>
+          <div class="mt40"><a href="https://app.tellidasubscriptions.com/" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable mobile-text-center accent-bg primary-color"> <span> Get Started </span></a></div>
+        </div>
+      </div>
+    </section>
+    <section id="pricing-3" class="section purple-white" sitemeta="[object Object]" activepage="Landing">
+      <div class="container mb75 text-center">
+        <div class="col-12">
+          <h4 class="heading primary-color launchaco-builder-hoverable">Pricing</h4>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Tellida is cheaper than ReCharge in all cases</p>
+        </div>
+      </div>
+      <div class="container-lrg">
+        <div class="col-12">
+          <div class="card flex mobile-flex-wrap">
+            <div class="col-4 pad30 flex flex-column spread launchaco-builder-hoverable">
+              <div class="mb20">
+                <h4 class="bold primary-color">Starter</h4> <b class="heading primary-color">0€</b> <span class="paragraph secondary-color">Monthly</span>
+                <ul class="mt20">
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">4% transaction-fee</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">All features</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">No monthly flat fee</span></li>
+                </ul>
+              </div> <a href="https://app.tellidasubscriptions.com/" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable button__full mobile-text-center accent-bg primary-color"> <span> Get Started </span></a>
+            </div>
+            <div class="col-4 pad30 flex flex-column spread launchaco-builder-hoverable">
+              <div class="mb20">
+                <h4 class="bold primary-color">Pro</h4> <b class="heading primary-color">15€</b> <span class="paragraph secondary-color">Monthly</span>
+                <ul class="mt20">
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">1% transaction fee</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">All features</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Dedicated Support</span></li>
+                </ul>
+              </div> <a href="https://app.tellidasubscriptions.com/" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable button__full mobile-text-center accent-bg primary-color"> <span> Get Started </span></a>
+            </div>
+            <div class="col-4 pad30 flex flex-column spread launchaco-builder-hoverable">
+              <div class="mb20">
+                <h4 class="bold primary-color">Enteprise</h4> <b class="heading primary-color"></b> <span class="paragraph secondary-color">Contact us</span>
+                <ul class="mt20">
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">No transaction fee</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Dedicated support</span></li>
+                  <li class="flex mb20"><svg width="22px" height="22px" viewBox="0 0 22 22" version="1.1" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" class="svg-fill noshrink mr20">
+                      <g transform="translate(4.000000, 5.000000)">
+                        <path d="M5.24961475,8.39956394 L2.16512063,5.35475362 C1.74038521,4.93548271 1.05017933,4.9352057 0.624646383,5.35526395 C0.199019838,5.77541456 0.198881924,6.45614266 0.624129379,6.8759191 L4.35212111,10.555948 C4.38658274,10.6034965 4.42544251,10.6488955 4.46870038,10.6915969 C4.70907746,10.9288814 5.03375662,11.0320952 5.3475228,11.0013023 C5.59592563,10.9812599 5.83876209,10.8774981 6.02880771,10.6898975 C6.06831079,10.6509027 6.10414872,10.6096632 6.13632157,10.5665961 L13.9850992,2.81879759 C14.4107939,2.39857976 14.410861,1.71746456 13.985328,1.29740632 C13.5597015,0.8772557 12.8697673,0.877449143 12.444108,1.29763217 L5.24961475,8.39956394 Z"></path>
+                      </g>
+                    </svg> <span class="span secondary-color">Customizations</span></li>
+                </ul>
+              </div> <a href="mailto:contact@tellidasubscriptions.com" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable button__full mobile-text-center accent-bg primary-color"> <span> Contact Us </span></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="feature-4" class="section purple-white" sitemeta="[object Object]" activepage="Landing">
+      <div class="container-lrg flex">
+        <div class="flex col-6 flex-column mobile-text-center center-vertical"><i class="icon mobile-center-icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+              <path d="M16 3.5a.5.5 0 0 1-.5.5h-5a.5.5 0 0 1 0-1h5a.5.5 0 0 1 .5.5zm5-1v20a2.503 2.503 0 0 1-2.5 2.5h-11A2.503 2.503 0 0 1 5 22.5v-20A2.503 2.503 0 0 1 7.5 0h11A2.503 2.503 0 0 1 21 2.5zm-6 20a.5.5 0 0 0-.5-.5h-3a.5.5 0 0 0 0 1h3a.5.5 0 0 0 .5-.5zm5-20A1.502 1.502 0 0 0 18.5 1h-11A1.502 1.502 0 0 0 6 2.5V20h14z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Great checkout experience</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Tellida
+ is the only recurring app that has a completely seamless Shopify 
+checkout. Customers will never leave your store, and are not required to
+ signup. They can also purchase subscriptions and regular products in 
+the same cart. </p>
+        </div>
+        <div class="col-6 flex center-horizontal center-vertical">
+          <div class="launchaco-builder-hoverable">
+            <div class=""><img src="Tellida%20-%20Subscriptions%20for%20Shopify_fichiers/1d01a914-9202-4d01-8a08-d2281cecd30d.png" alt="Screenshot of small App" class="custom-img"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="feature-5" class="section purple-white" sitemeta="[object Object]" activepage="Landing">
+      <div class="container-lrg flex">
+        <div class="col-6"><i class="icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+              <path d="M7.72 1.5a.5.5 0 0 1 .5-.5 3.632 3.632 0 0 1 2.912 1.502 4.193 4.193 0 0 1 .856-1.235A4.453 4.453 0 0 1 15.153 0a3.495 3.495 0 0 1 .533.035 4.526 4.526 0 0 1-1.233 3.698A4.453 4.453 0 0 1 11.288 5a3.495 3.495 0 0 1-.533-.035 4.1 4.1 0 0 1-.03-.446c0-.007-.005-.012-.005-.019 0-.64-.992-2.5-2.5-2.5a.5.5 0 0 1-.5-.5zm6.803 4.63C13.565 6.05 12.34 6 11.5 6s-2.065.05-3.023.13a5.991 5.991 0 0 0-5.332 7.28l1.74 8.457a3.996 3.996 0 0 0 4.62 3.068l1.995-.312 1.994.312a3.996 3.996 0 0 0 4.62-3.068l1.741-8.458a5.991 5.991 0 0 0-5.332-7.28z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Customer Dashboard </h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Using
+ the regular Shopify account system, your customers can access a 
+dashboard allowing them to manage their subscriptions, and update their 
+credit cards. This dashboard is integrated in your store, not on an 
+external website. </p>
+        </div>
+        <div class="col-6"><i class="icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+              <path d="M20 22.494v1a.5.5 0 0 1-1 0v-1a.5.5 0 1 1 1 0zm-14.5-.5a.5.5 0 0 0-.5.5v1a.5.5 0 0 0 1 0v-1a.5.5 0 0 0-.5-.5zm7 1a10.924 10.924 0 0 1-2.494-.391l-.27 1.76a.528.528 0 0 0 .097.454.498.498 0 0 0 .387.183h4.56a.5.5 0 0 0 .49-.598l-.275-1.8a10.928 10.928 0 0 1-2.495.392zm9.06-7.44L18 11.995v9h2.5a1.5 1.5 0 0 0 1.5-1.5v-2.879a1.5 1.5 0 0 0-.44-1.06zM17 5.995v15a18.472 18.472 0 0 1-4 .974v-7.474a.5.5 0 0 0-1 0v7.474a18.47 18.47 0 0 1-4-.974v-15C8 3.67 11.553.244 12.5 0c.947.244 4.5 3.67 4.5 5.994zm-2.168 1.127A4.374 4.374 0 0 0 12.5 5.994a4.113 4.113 0 0 0-2.343 1.136.5.5 0 0 0 .686.729 3.213 3.213 0 0 1 1.657-.865 3.417 3.417 0 0 1 1.668.874.5.5 0 0 0 .664-.748zM3 16.614v2.88a1.5 1.5 0 0 0 1.5 1.5H7v-9l-3.56 3.56a1.5 1.5 0 0 0-.44 1.06z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Powerful Plans</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">You
+ can create a plan for any of your Shopify products or variant and set 
+trial periods. Through your backoffice, you can pause or cancel user 
+subscriptions. Failed payments are automatically notified </p>
+        </div>
+      </div>
+      <!---->
+    </section>
+    <section id="feature-6" class="section purple-white" sitemeta="[object Object]" activepage="Landing">
+      <div class="container-lrg flex">
+        <div class="col-6"><i class="icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 25 25">
+              <path d="M23 8v15.5a1.502 1.502 0 0 1-1.5 1.5h-18A1.502 1.502 0 0 1 2 23.5v-22A1.502 1.502 0 0 1 3.5 0h11.476l.02 6.506A1.503 1.503 0 0 0 16.496 8zm-6.504-1h6.16a1.489 1.489 0 0 0-.095-.116L15.977.297l.02 6.205a.5.5 0 0 0 .5.498z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Coupons</h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Coupons
+ can be created using percentages or absolute amounts. You can set a 
+redeemable count limit or an expiration date. You can also track their 
+usage. </p>
+        </div>
+        <div class="col-6"><i class="icon secondary-bg launchaco-builder-hoverable"><svg class="svg-fill" viewBox="0 0 25 14" xmlns="http://www.w3.org/2000/svg">
+              <path d="M23.5 4H23V1.5A1.5 1.5 0 0 0 21.5 0h-20A1.5 1.5 0 0 0 0 1.5v11A1.5 1.5 0 0 0 1.5 14h20a1.5 1.5 0 0 0 1.5-1.5V10h.5A1.5 1.5 0 0 0 25 8.5v-3A1.5 1.5 0 0 0 23.5 4zM9.947 12L11 8 9 7l4-5-1 4 2 1-4.053 5z"></path>
+            </svg></i>
+          <h3 class="bold primary-color launchaco-builder-hoverable">Shopify Backend </h3>
+          <p class="paragraph secondary-color launchaco-builder-hoverable">Orders
+ will be created for initial and recurring payments. Shipping and taxes 
+are calculated based on your Shopify settings. Your Shopify inventory 
+policy will also be respected. </p>
+        </div>
+      </div>
+      <!---->
+    </section>
+    <section id="cta-7" class="section purple-white" sitemeta="[object Object]" activepage="Landing">
+      <!---->
+      <div class="container text-center">
+        <div class="col-12">
+          <h4 class="heading-lrg primary-color launchaco-builder-hoverable"> Want more infos ? </h4>
+          <p class="paragraph mt20 secondary-color mt20 launchaco-builder-hoverable">We're always happy to discuss your usecase, don't hesitate to reach out!</p>
+          <div class="mt40"><a href="mailto:contact@tellidasubscriptions.com" target="_blank" class="button mobile-text-center mt10 launchaco-builder-hoverable mobile-text-center accent-bg primary-color"> <span> Contact Us </span></a></div>
+        </div>
+      </div>
+    </section>
+    <section id="testimonial-8" class="section purple-white" sitemeta="[object Object]" activepage="Landing">
+      <div class="container text-center">
+        <div class="col-12">
+          <blockquote class="heading-sml primary-color launchaco-builder-hoverable">We
+ succesfully moved from ReCharge to Tellida to have a more native 
+experience and save on fees. It's much simpler and efficient ! </blockquote>
+          <div class="mt20">
+            <div class="user-image mt20 mb20 launchaco-builder-hoverable" style="background-image: url(&quot;https://cdn.launchaco.com/images/135f447a-41a8-4c0a-bec1-eeb0a8e4b94e.png&quot;);"></div>
+            <p class="span secondary-color mb10 launchaco-builder-hoverable">Anna Balez</p> <span class="span secondary-color launchaco-builder-hoverable">Tale Me</span>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer id="footer-9" class="section text-center purple-black" sitemeta="[object Object]" activepage="Landing">
+      <div class="container col-12">
+        <nav class="mb50"><a target="_blank" href="https://www.outofscreen.com/" class="nav-link secondary-color">created by OUT OF SCREEN</a></nav>
+        <div>
+          <!---->
+          <!----><a href="mailto:contact@tellidasubscriptions.com" class="socialicons accent-bg email"></a></div>
+        <!---->
+      </div>
+    </footer>
+
+    <a id="visual-dreamer" class="launchaco-promo launchaco-promo__active" target="_blank" href="https://www.launchaco.com/">
+      <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient x1="9.394%" y1="57.704%" x2="105.69%" y2="27.607%" id="a">
+            <stop stop-color="#007FFF" offset="0%"></stop>
+            <stop stop-color="#1290FC" offset="100%"></stop>
+          </linearGradient>
+          <linearGradient x1="50%" y1="0%" x2="50%" y2="137.557%" id="b">
+            <stop stop-color="#FF9386" offset="0%"></stop>
+            <stop stop-color="#FF5F86" offset="100%"></stop>
+          </linearGradient>
+          <linearGradient x1="30.817%" y1="-31.6%" x2="63.808%" y2="151.297%" id="c">
+            <stop stop-color="#D7EDFF" offset="0%"></stop>
+            <stop stop-color="#FFF" stop-opacity="0" offset="100%"></stop>
+          </linearGradient>
+        </defs>
+        <g fill="none">
+          <circle fill="url(#a)" cx="19.832" cy="19.832" r="19.832"></circle>
+          <path d="M26.616.325l4.308 12.587-4.669-.315L26.218.388c0-.105.091-.19.204-.191.088 0 .166.051.194.128z" fill="url(#b)" transform="rotate(45 28.571 6.555)"></path>
+          <path d="M32.031 35.658c-6.164 2.721-12.745-4.33-11.992-10.011 2.617.782 4.626.997 7.904 2.01 2.34.769 4.152.479 5.386-1.13 1.234-1.607 1.316-3.502 0-5.158-4.826-5.49 0 0-10.516-12.264l2.923-2.95C.117 4.123 5.302 32.333 6.903 35.095c4.01 3.54 14.11 8.709 25.128.563z" fill="#FFF"></path>
+          <path d="M9.782 19.176l-.034-.016c0 5.76 4.425 21.794 22.185 16.378-6.148 2.716-12.71-4.29-12.006-9.97a7.394 7.394 0 0 1-2.73.519c-3.922 0-7.135-3.047-7.415-6.911z" fill="url(#c)"></path>
+          <ellipse fill="#354158" cx="22.185" cy="14.958" rx="2.017" ry="1.849"></ellipse>
+          <ellipse fill="#354158" cx="22.185" cy="14.958" rx="2.017" ry="1.849"></ellipse>
+        </g>
+      </svg>
+      <div class="launchaco-promo-speechbubble launchaco-promo-speechbubble__animate">Built With Launchaco</div>
+      <div class="launchaco-promo-speechbubble">Built With Launchaco</div>
+    </a>
+  
+
+  <script>
+    window.onscroll = function()
+    {
+      showAd()
+    }
+
+    function showAd()
+    {
+      var scrollBarPosition = window.pageYOffset | document.body.scrollTop;
+
+      // At specifiv position do what you want
+      if (scrollBarPosition > 300)
+      {
+        document.getElementById("visual-dreamer").className = "launchaco-promo launchaco-promo__active";
+        window.onscroll = function() {};
+      }
+    }
+  </script>
+
+</body></html>
