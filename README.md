@@ -15,7 +15,7 @@
   Countly.q = Countly.q || [];
 
   //provide countly initialization parameters
-  Countly.app_key = '346a6964255cbb4e4a01b0d7cca372405b8cc306';
+  Countly.app_key = '49f43958cf5f74cde981a3b400ebcd6653da65fa';
   Countly.url = 'https://t.outofscreen.com';
 
   Countly.q.push(['track_sessions']);
